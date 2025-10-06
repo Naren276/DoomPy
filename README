@@ -1,0 +1,13 @@
+----DOOMPY----
+Doompy is a basic dungeon crawler game with two main levels currently. The objective of the game is to reach the portal at the end of each level in the fastest time possible. The main feature of the game is it uses raycasting to create a 3d effect. 
+
+To run the game simply download the folder and run the Main.py file. 
+
+The controls for the game is WASD to move, left and right arrow to turn, and space to shoot. You can also press escape to pause the game.
+
+There are three types of enemy: A fast but short ranged crab enemy, a slow and long ranged enemy that fires orbs at the player, and a unkillable obstacle enemy that moves on a fixed path. 
+
+If you want to, you can also change settings in the game by editing settings.py, here you can change the desired fps, resolution, resolution scale (res, larger numbers lower resolution scale), and the games camera sensitivy (ROTATIONSPEED) among other less important settings. For the best experiance make sure that the fps you get in the game matches that of the fps cap or the game may appear to move slowly. The easyist way to increase preformance is to plug your laptop in or make the res varible in settings a higher number such as 6 altough this will make edges jaggy. 
+
+To run the program you must have pygame and numpy installed. 
+
